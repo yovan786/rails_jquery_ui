@@ -1,4 +1,10 @@
 AccountsManager::Application.routes.draw do
+  get "employees/home"
+
+  get "employees/contact"
+
+  get "employees/about"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
